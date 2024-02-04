@@ -22,7 +22,7 @@ body {
 
     0%,
     100% {
-        transform: translate(-30px, -30p x);
+        transform: translate(-30px, -30px);
         box-shadow: 0 0 #e53170, 0 0 #a7a9be;
     }
 
