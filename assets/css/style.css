@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: #0f0e17;
+}
+
+.pemuat {
+    width: 150px;
+    aspect-ratio: 1;
+    background: #fffffe;
+    animation: kotak 1.5s infinite;
+}
+
+@keyframes kotak {
+
+    0%,
+    100% {
+        transform: translate(-30px, -30p x);
+        box-shadow: 0 0 #e53170, 0 0 #a7a9be;
+    }
+
+    40% {
+        transform: translate(30px, 30px);
+        box-shadow: -10px -10px #e53170, -20px -20px #a7a9be;
+    }
+
+    50% {
+        transform: translate(30px, 30px);
+        box-shadow: 0 0 #e53170, 0 0 #a7a9be;
+    }
+
+    90% {
+        transform: translate(-30px, -30px);
+        box-shadow: 10px 10px #e53170, 20px 20px #a7a9be;
+    }
+}
